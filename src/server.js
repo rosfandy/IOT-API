@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi')
 const routes = require('./routes')
-// eslint-disable-next-line no-unused-vars
+
 const db = require('./connection')
 
 const init = async () => {
